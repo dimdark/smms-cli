@@ -7,6 +7,7 @@
   ```shell
   go get github.com/dimdark/smms-cli
   cd ${GOPATH}/src/github.com/dimdark/smms-cli
+  # windows下 go build -o smms.exe main.go
   go build -o smms main.go
   ```
 
@@ -44,7 +45,7 @@
     smms delete https://sm.ms/delete/Ig6yNDdz32e4OWS
     or 
     smms d https://sm.ms/delete/Ig6yNDdz32e4OWS
-     ```
+    ```
 
     
 
